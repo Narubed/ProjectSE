@@ -1,23 +1,624 @@
 <!DOCTYPE html>
-<!-- saved from url=(0031)https://www.mju.ac.th/main/spo/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- saved from url=(0055)http://erp.mju.ac.th/informationDetail.aspx?newsId=2729 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	
 
-<title>Eco System for Lifelong Learning</title>
-<style type="text/css">
-body {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-}
-</style>
-</head>
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="content-language" content="th"><meta name="description"><meta name="author"><meta name="keywords" content="มหาวิทยาลัยแม่โจ้, ระบบบริหารทรัพยากร, erp, นักศึกษา, ศิษย์เก่า, บุคลากร, สารสนเทศ, โครงการ, วิจัย, บทความ, thesis, บัญชี, ทะเบียน"><meta name="robots" content="index,follow">
 
+    <!-- DOCS STYLES-->
+    <link href="./informationDetail_files/docs.css" rel="stylesheet">
+    <!-- BOOTSTRAP STYLES-->
+    <link href="./informationDetail_files/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FONTAWESOME STYLES-->
+    <link href="./informationDetail_files/font-awesome.min.css" rel="stylesheet">
+    <!-- CORE-UI STYLES-->
+    <link href="./informationDetail_files/core-ui.css" rel="stylesheet">
+    <!-- CUSTOM STYLES-->
+    <link href="./informationDetail_files/customStyle.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://erp.mju.ac.th/images/apple-touch-icon-144-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://erp.mju.ac.th/images/apple-touch-icon-114-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://erp.mju.ac.th/images/apple-touch-icon-72-precomposed.png"><link rel="apple-touch-icon-precomposed" href="http://erp.mju.ac.th/images/apple-touch-icon-57-precomposed.png"><link rel="shortcut icon" href="http://erp.mju.ac.th/images/small.ico">
+
+    <!-- JQUERY SCRIPTS -->
+    <script src="./informationDetail_files/jquery-2.1.4.min.js.download" type="text/javascript"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script type="text/javascript" src="./informationDetail_files/bootstrap.min.js.download"></script>
+
+    
+    <link href="./informationDetail_files/lightgallery.css" rel="stylesheet">
+    <style type="text/css">
+        .info-gallery > ul {
+            margin-bottom: 0;
+        }
+
+            .info-gallery > ul > li {
+                float: left;
+                margin-bottom: 25px;
+                margin-right: 0px;
+                width: 350px;
+            }
+
+                .info-gallery > ul > li a {
+                    border: 1px solid #FFF;
+                    border-radius: 2px;
+                    display: block;
+                    overflow: hidden;
+                    position: relative;
+                    float: left;
+                }
+
+                    .info-gallery > ul > li a > img {
+                        -webkit-transition: -webkit-transform 0.15s ease 0s;
+                        -moz-transition: -moz-transform 0.15s ease 0s;
+                        -o-transition: -o-transform 0.15s ease 0s;
+                        transition: transform 0.15s ease 0s;
+                        -webkit-transform: scale3d(1, 1, 1);
+                        transform: scale3d(1, 1, 1);
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 2px;
+                    }
+
+                    .info-gallery > ul > li a:hover > img {
+                        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+                        transform: scale3d(1.1, 1.1, 1.1);
+                    }
+
+                    .info-gallery > ul > li a:hover .info-gallery-poster > img {
+                        opacity: 1;
+                    }
+
+                    .info-gallery > ul > li a .info-gallery-poster {
+                        background-color: rgba(0, 0, 0, 0.1);
+                        bottom: 0;
+                        left: 0;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        -webkit-transition: background-color 0.15s ease 0s;
+                        -o-transition: background-color 0.15s ease 0s;
+                        transition: background-color 0.15s ease 0s;
+                    }
+
+                        .info-gallery > ul > li a .info-gallery-poster > img {
+                            left: 50%;
+                            margin-left: -10px;
+                            margin-top: -10px;
+                            opacity: 0;
+                            position: absolute;
+                            top: 50%;
+                            -webkit-transition: opacity 0.3s ease 0s;
+                            -o-transition: opacity 0.3s ease 0s;
+                            transition: opacity 0.3s ease 0s;
+                        }
+
+                    .info-gallery > ul > li a:hover .info-gallery-poster {
+                        background-color: rgba(0, 0, 0, 0.5);
+                    }
+
+        .info-gallery .justified-gallery > a > img {
+            -webkit-transition: -webkit-transform 0.15s ease 0s;
+            -moz-transition: -moz-transform 0.15s ease 0s;
+            -o-transition: -o-transform 0.15s ease 0s;
+            transition: transform 0.15s ease 0s;
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            height: 100%;
+            width: 100%;
+        }
+
+        .info-gallery .justified-gallery > a:hover > img {
+            -webkit-transform: scale3d(1.1, 1.1, 1.1);
+            transform: scale3d(1.1, 1.1, 1.1);
+        }
+
+        .info-gallery .justified-gallery > a:hover .info-gallery-poster > img {
+            opacity: 1;
+        }
+
+        .info-gallery .justified-gallery > a .info-gallery-poster {
+            background-color: rgba(0, 0, 0, 0.1);
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            -webkit-transition: background-color 0.15s ease 0s;
+            -o-transition: background-color 0.15s ease 0s;
+            transition: background-color 0.15s ease 0s;
+        }
+
+            .info-gallery .justified-gallery > a .info-gallery-poster > img {
+                left: 50%;
+                margin-left: -10px;
+                margin-top: -10px;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                -webkit-transition: opacity 0.3s ease 0s;
+                -o-transition: opacity 0.3s ease 0s;
+                transition: opacity 0.3s ease 0s;
+            }
+
+        .info-gallery .justified-gallery > a:hover .info-gallery-poster {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .info-gallery .video .info-gallery-poster img {
+            height: 48px;
+            margin-left: -24px;
+            margin-top: -24px;
+            opacity: 0.8;
+            width: 48px;
+        }
+
+        .info-gallery.dark > ul > li a {
+            border: 3px solid #04070a;
+        }
+
+        .home .info-gallery {
+            padding-bottom: 50px;
+        }
+    </style>
+
+    <script src="./informationDetail_files/lightgallery.min.js.download"></script>
+    <script src="./informationDetail_files/lg-fullscreen.min.js.download"></script>
+    <script src="./informationDetail_files/lg-thumbnail.min.js.download"></script>
+    <script src="./informationDetail_files/lg-video.min.js.download"></script>
+    <script src="./informationDetail_files/lg-autoplay.min.js.download"></script>
+    <script src="./informationDetail_files/lg-zoom.min.js.download"></script>
+    <script src="./informationDetail_files/lg-hash.min.js.download"></script>
+    <script src="./informationDetail_files/lg-pager.min.js.download"></script>
+<link href="./informationDetail_files/e-manageGray.css" rel="stylesheet"></head>
 <body>
-<div align="center">
-  <p><a href="https://drive.google.com/file/d/1hvNPdxf7KMqT8U_meMz9T7qeQb4IP0gP/view"><img src="./Eco System for Lifelong Learning_files/MJU_Eco system_final-01.jpg" width="80%" height="" align="top"></a></p>
-  <p>&nbsp;</p>
+    <form method="post" action="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
 </div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./informationDetail_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./informationDetail_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./informationDetail_files/ScriptResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="74FCA61D">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="WGoUz08lsrKhrF57fBSd7QfezsY4EHWVuGcs5Wkr1xzff+2NBdidY1rDNoKas2yfDQPsxBQeCxPpqdD1YVRUU5J60vpyxf5p/VuOEOWowituWU2vMPNsjmzkvtpFxmvy8Jtsnu1oiM4mRBr9tdTrKTlOuPW3HPRJRIn6ptmjY2c=">
+</div>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+                        <span class="sr-only">เมนู</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="hl_brandLogo" class="navbar-brand" href="http://erp.mju.ac.th/home.aspx">
+                        <div class="visible-xs">
+                            <div style="margin-top: 5px">
+                                <img src="./informationDetail_files/logo.png" width="45">
+                                <span id="lbl_mainTitle_visible">มหาวิทยาลัยแม่โจ้</span>
+                            </div>
+                        </div>
+                        <div class="hidden-xs">
+                            <img src="./informationDetail_files/logo.png" width="45" align="left">
+                            <div style="float: left; margin-left: 10px;">
+                                <div style="margin-top: 7px;">
+                                    <span id="lbl_mainTitle" class="text-mainTitle">มหาวิทยาลัยแม่โจ้</span>
+                                </div>
+                                <div style="margin-top: -5px;">
+                                    <span id="lbl_subTitle" class="text-subTitle">Maejo University</span>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                    </a>
+                    <ul class="nav navbar-nav">
+                        
+
+                    </ul>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                       
+                        
+
+                        <li><a href="http://erp.mju.ac.th/ContactUs.aspx"><span class="glyphicon glyphicon-phone-alt"></span>
+                            ติดต่อ</a></li>
+                        <li><a href="http://erp.mju.ac.th/dashboard.aspx"><span class="glyphicon glyphicon-user"></span>
+                            บุคลากร (เข้าสู่ระบบ)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row clearfix" style="margin-top: 50px;">
+        </div>
+        <div style="min-height: 600px">
+            
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$mainContentPlaceHolder$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <input type="hidden" name="ctl00$mainContentPlaceHolder$hdNewsId" id="mainContentPlaceHolder_hdNewsId" value="2729">
+    <input type="hidden" name="ctl00$mainContentPlaceHolder$HFNewsTypeID" id="mainContentPlaceHolder_HFNewsTypeID" value="7">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li>
+                <a id="mainContentPlaceHolder_likeTitle1" href="http://erp.mju.ac.th/home.aspx">หน้าหลัก</a></li>
+            <li>
+                <a id="mainContentPlaceHolder_likeTitle3">รายละเอียดข่าวสารประชาสัมพันธ์</a></li>
+            <li></li>
+        </ol>
+        <div class="panel">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <span id="mainContentPlaceHolder_lbTopicName">ม.แม่โจ้ จัด Road Show งานเกษตรแม่โจ้ 85 ปี ณ ลานพระบรมราชานุสาวรีย์สามกษัตริย์</span>
+                </div>
+                <div>
+                    <small>
+                        <span id="mainContentPlaceHolder_beginDateNameLabel" style="font-weight:bold;">วันที่ข่าว</span>
+                        <span id="mainContentPlaceHolder_beginDateLabel">25/11/2561</span>
+                        &nbsp;&nbsp;&nbsp;
+                        
+                        
+                    </small>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <span id="mainContentPlaceHolder_lbNamePost" style="font-weight:bold;">นายบารเมษฐ์  ดวงเพชร</span>
+                        <div>
+                            <small>
+                                <strong>ประเภท</strong>
+                                <span id="mainContentPlaceHolder_lbType">ข่าวกิจกรรม</span>
+                                &nbsp;&nbsp;&nbsp;
+                                        <strong>แก้ไขล่าสุดเมื่อ</strong>
+                                <span id="mainContentPlaceHolder_lbDatePost">25/11/2561</span>
+                            </small>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <span id="mainContentPlaceHolder_Label11" style="font-size:Medium;">เปิดอ่าน:</span>
+                        <span id="mainContentPlaceHolder_lbViewCount" style="font-size:Medium;">8</span>
+                        <span id="mainContentPlaceHolder_Label19" style="font-size:Medium;">ครั้ง</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>&nbsp;</p>
+                        <p>
+                            <span id="mainContentPlaceHolder_lbMainDetail"></span>
+                        </p>
+                        <p>
+                            <span id="mainContentPlaceHolder_lbDetail">วันอาทิตย์ที่ 25 พฤศจิกายน 2561 มหาวิทยาลัยแม่โจ้ จัดกิจกรรม Road Show งานเกษตรแม่โจ้ 85 ปี ภูมิปัญญาแห่งการเกษตร เพื่อเฉลิมฉลองในโอกาสท่ีมหาวิทยาลัยมีวาระครบรอบ 85 ปี โดยได้รับเกียรติจาก อาจารย์รชฏ เชื้อวิโรจน์ รองอธิการบดีมหาวิทยาลัยแม่โจ้  กล่าวเปิดงาน ร่วมด้วยคณะผู้บริหาร โดยภายในงานได้ยกเอาผลงานวิจัย นวัตกรรม ผลิตภัณฑ์เด่น และ MJU Gourmet Bus 2477 ของมหาวิทยาลัยแม่โจ้ ไปให้พี่น้องประชาชนได้สัมผัส นอกจากนี้ยังมีการแสดงสดจาก วงแม่โจ้แบนด์ และศิลปินรับเชิญ  เทิดไท  ชัยนิยม ร่วมด้วยกิจกรรมพร้อมทั้งแจกของรางวัลอีกมากมาย ณ ลานพระบรมราชานุสาวรีย์สามกษัตริย์ จังหวัดเชียงใหม่</span>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span id="mainContentPlaceHolder_gallerySpan"><div class="info-gallery"><ul id="lightgallery" class="list-unstyled row"><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/1c8000ca676c44fa8afd307b949c8939.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/1c8000ca676c44fa8afd307b949c8939s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/69931cdb4b48427c94ef97636312e74c.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/69931cdb4b48427c94ef97636312e74cs.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/553b3779ce354b5f82f3bccc32461fe6.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/553b3779ce354b5f82f3bccc32461fe6s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/8fd2daf7dc0d46fcadeab1566efb5a17.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/8fd2daf7dc0d46fcadeab1566efb5a17s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/1327b3c78f6f4d0a8a16bd008a27c1a0.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/1327b3c78f6f4d0a8a16bd008a27c1a0s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/e05db7d90ef540a68ed9ca7fc4ea80b3.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/e05db7d90ef540a68ed9ca7fc4ea80b3s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/d710fdcd03d243428555e4b73b2af965.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/d710fdcd03d243428555e4b73b2af965s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/37ab10d17eb84aecbf34a6c75844ae24.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/37ab10d17eb84aecbf34a6c75844ae24s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/379505ef6f2a423580cb21f3b99c8b89.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/379505ef6f2a423580cb21f3b99c8b89s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/a1aea05281474ad2aeb4dcf7d99d34ad.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/a1aea05281474ad2aeb4dcf7d99d34ads.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/43c3745414684cc4ad8a5f303d6f5bd7.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/43c3745414684cc4ad8a5f303d6f5bd7s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/66f50e792f004990a0c5c26d5956e027.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/66f50e792f004990a0c5c26d5956e027s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/2641513e1d11492aa5f51b262dafe67e.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/2641513e1d11492aa5f51b262dafe67es.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/bf4eb01d1f324223a66b5d009b716682.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/bf4eb01d1f324223a66b5d009b716682s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/a662e62684b247e5abe3787a6618ac07.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/a662e62684b247e5abe3787a6618ac07s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/f3cafbf801804cc0b82a7cd1e01b214d.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/f3cafbf801804cc0b82a7cd1e01b214ds.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/3be2c333888b45429fe0ae1d512a993e.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/3be2c333888b45429fe0ae1d512a993es.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/589a0b611eb545deaad82ceaf29f5ef8.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/589a0b611eb545deaad82ceaf29f5ef8s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/6ed88ccc88804e02b2992499772a8941.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/6ed88ccc88804e02b2992499772a8941s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/9971ef87bfc0496f9d91becb1fe3a989.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/9971ef87bfc0496f9d91becb1fe3a989s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/86fe0b158a5646c2b0f0a7f2b4d0cec9.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/86fe0b158a5646c2b0f0a7f2b4d0cec9s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/116f7e2e4a874d02aa9c49e171f7ee22.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/116f7e2e4a874d02aa9c49e171f7ee22s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/ed42ab3b475f4c3e8357d501cf3436d8.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/ed42ab3b475f4c3e8357d501cf3436d8s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/c2c9d9cf7a1849d798bb7b00a788b5d8.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/c2c9d9cf7a1849d798bb7b00a788b5d8s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/5d1fb408973e4aac9e582d5429505067.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/5d1fb408973e4aac9e582d5429505067s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/c05b92e037564995b6679028cab2e165.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/c05b92e037564995b6679028cab2e165s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/283bcc2ae5624966939d157a036d2a4e.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/283bcc2ae5624966939d157a036d2a4es.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/c850ba9f736a4caba1b55fdbe60f7a75.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/c850ba9f736a4caba1b55fdbe60f7a75s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/49e36c5ec4af40f5aef5d1c04dc79daf.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/49e36c5ec4af40f5aef5d1c04dc79dafs.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/06030bca58c448fc8b1229b3d1e62693.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/06030bca58c448fc8b1229b3d1e62693s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/121bbe4271cc4b6b85d5d07b1d8862d2.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/121bbe4271cc4b6b85d5d07b1d8862d2s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/9a36fae7bbb945e99bd24163430a9e9e.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/9a36fae7bbb945e99bd24163430a9e9es.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/14f4837178954616a82f5cff347093e1.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/14f4837178954616a82f5cff347093e1s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/dceaafe3b0a544f1a8784d6e8b2fa26f.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/dceaafe3b0a544f1a8784d6e8b2fa26fs.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/55358baf43dd400e822e8bcc28386f90.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/55358baf43dd400e822e8bcc28386f90s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/04c43c2ecf9c4d80b635c8a20cb18ff7.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/04c43c2ecf9c4d80b635c8a20cb18ff7s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/fdf695915f324105a8edeb2f10d42d7a.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/fdf695915f324105a8edeb2f10d42d7as.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/91bf6f9ca6ee4d3a8ed9b8d68f2a791e.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/91bf6f9ca6ee4d3a8ed9b8d68f2a791es.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/ef20e7211f4e4bfc802e29318f229746.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/ef20e7211f4e4bfc802e29318f229746s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/6c48b457105247379b80e5eea341c4a0.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/6c48b457105247379b80e5eea341c4a0s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/ad3bea9c3a3c4d2aacec223ab9957be4.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/ad3bea9c3a3c4d2aacec223ab9957be4s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/9f4471b036c64e27a734fd4d586fddb5.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/9f4471b036c64e27a734fd4d586fddb5s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/64159406d03e4a93a7d1fb1ac073bb3d.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/64159406d03e4a93a7d1fb1ac073bb3ds.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/e3d5fe0e3ff84d359392d4a4bbb79c10.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/e3d5fe0e3ff84d359392d4a4bbb79c10s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/47448c2d383f476ba6df23c8ef0638e0.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/47448c2d383f476ba6df23c8ef0638e0s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/bfee34a22f7b4a4ca80ffcf0f1073431.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/bfee34a22f7b4a4ca80ffcf0f1073431s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/5ba5697b182b4644bd29ba015f1e0de4.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/5ba5697b182b4644bd29ba015f1e0de4s.jpg"></a></li><li class="col-xs-6 col-sm-4 col-md-3" data-src="picture/information/067b1a54daf643c5a850bb796665f6d5.jpg"><a href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2729"><img class="img-responsive" src="./informationDetail_files/067b1a54daf643c5a850bb796665f6d5s.jpg"></a></li></ul></div></span>
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                $('#lightgallery').lightGallery();
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-heading">
+                <div class="panel-title">
+                        ข่าวอื่น ๆ ที่เกี่ยวข้อง
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table id="mainContentPlaceHolder_ddlDispalySameGroup" cellspacing="0" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td>
+                                <div class="form-group">
+                                    <table>
+                                        <tbody><tr>
+                                            <td rowspan="7" style="padding-right: 5px" valign="top">
+                                                 <img id="mainContentPlaceHolder_ddlDispalySameGroup_Image1_0" class="img-rounded" src="./informationDetail_files/6a029477f788421db8a96665fc804e7es.jpg" style="height:64px;width:95px;">
+                                            </td>
+                                            <td style="font-weight: bold" width="100%">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                               
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                            <a id="mainContentPlaceHolder_ddlDispalySameGroup_HyperLink5_0" href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2728">มหาวิทยาลัยแม่โจ้ คว้ารางวัลชนะเลิศ  ในการประกวดรถกระทงใหญ่ งานประเพณียี่เป็งเชียงใหม่ประจำปี 2561</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="mainContentPlaceHolder_ddlDispalySameGroup_HyperLink_OrangeColour_0" class="dataList">
+                                                    <small>ผู้เขียน
+                                                                        <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label14_0">นายบารเมษฐ์  ดวงเพชร</span>
+                                                    </small>
+                                                    <small>&nbsp;วันที่ข่าว
+                                                                            <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label23_0">24/11/2561 0:00:00</span>
+                                                        &nbsp;แก้ไขล่าสุดเมื่อ
+                                                                            <span id="mainContentPlaceHolder_ddlDispalySameGroup_lbViewPerson_0" class="topic_l3">24/11/2561 9:49:47</span>
+                                                        &nbsp;
+                                                                    เปิดอ่าน
+                                                                    <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label10_0" style="color:Red;">83</span>
+                                                    </small>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </div>
+                            </td>
+	</tr><tr>
+		<td>
+                                <div class="form-group">
+                                    <table>
+                                        <tbody><tr>
+                                            <td rowspan="7" style="padding-right: 5px" valign="top">
+                                                 <img id="mainContentPlaceHolder_ddlDispalySameGroup_Image1_1" class="img-rounded" src="./informationDetail_files/da0faffe190f47b3ba5e46ddf4273d5as.jpg" style="height:64px;width:95px;">
+                                            </td>
+                                            <td style="font-weight: bold" width="100%">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                               
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                            <a id="mainContentPlaceHolder_ddlDispalySameGroup_HyperLink5_1" href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2727">ม.แม่โจ้ ร่วมพิธีลงนามบันทึกข้อตกลงความร่วมมือในการบริหารจัดการทางการเงินผ่านระบบ Krungthai Digital Platform ในโครงการ MJU Smart University</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="mainContentPlaceHolder_ddlDispalySameGroup_HyperLink_OrangeColour_1" class="dataList">
+                                                    <small>ผู้เขียน
+                                                                        <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label14_1">นายบารเมษฐ์  ดวงเพชร</span>
+                                                    </small>
+                                                    <small>&nbsp;วันที่ข่าว
+                                                                            <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label23_1">23/11/2561 0:00:00</span>
+                                                        &nbsp;แก้ไขล่าสุดเมื่อ
+                                                                            <span id="mainContentPlaceHolder_ddlDispalySameGroup_lbViewPerson_1" class="topic_l3">23/11/2561 14:31:40</span>
+                                                        &nbsp;
+                                                                    เปิดอ่าน
+                                                                    <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label10_1" style="color:Red;">59</span>
+                                                    </small>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </div>
+                            </td>
+	</tr><tr>
+		<td>
+                                <div class="form-group">
+                                    <table>
+                                        <tbody><tr>
+                                            <td rowspan="7" style="padding-right: 5px" valign="top">
+                                                 <img id="mainContentPlaceHolder_ddlDispalySameGroup_Image1_2" class="img-rounded" src="./informationDetail_files/7e39f66444d341608dee9811267bea1ds.jpg" style="height:64px;width:95px;">
+                                            </td>
+                                            <td style="font-weight: bold" width="100%">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                               
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                            <a id="mainContentPlaceHolder_ddlDispalySameGroup_HyperLink5_2" href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2725">โครงการเสริมสร้างสมรรถนะการทำงานเป็นทีม ประจำปี 2562</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="mainContentPlaceHolder_ddlDispalySameGroup_HyperLink_OrangeColour_2" class="dataList">
+                                                    <small>ผู้เขียน
+                                                                        <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label14_2">นายบารเมษฐ์  ดวงเพชร</span>
+                                                    </small>
+                                                    <small>&nbsp;วันที่ข่าว
+                                                                            <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label23_2">22/11/2561 0:00:00</span>
+                                                        &nbsp;แก้ไขล่าสุดเมื่อ
+                                                                            <span id="mainContentPlaceHolder_ddlDispalySameGroup_lbViewPerson_2" class="topic_l3">22/11/2561 16:13:27</span>
+                                                        &nbsp;
+                                                                    เปิดอ่าน
+                                                                    <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label10_2" style="color:Red;">85</span>
+                                                    </small>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </div>
+                            </td>
+	</tr><tr>
+		<td>
+                                <div class="form-group">
+                                    <table>
+                                        <tbody><tr>
+                                            <td rowspan="7" style="padding-right: 5px" valign="top">
+                                                 <img id="mainContentPlaceHolder_ddlDispalySameGroup_Image1_3" class="img-rounded" src="./informationDetail_files/3242b4e9d5d643e0b8d7f1572cffbfc4s.jpg" style="height:64px;width:95px;">
+                                            </td>
+                                            <td style="font-weight: bold" width="100%">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                               
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                            <a id="mainContentPlaceHolder_ddlDispalySameGroup_HyperLink5_3" href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2724">ผู้ช่วยอธิการบดี ม.แม่โจ้ เยี่ยมคารวะอธิบดีศาลปกครองและอธิบดีอัยการสำนักงานคดีปกครองเชียงใหม่</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="mainContentPlaceHolder_ddlDispalySameGroup_HyperLink_OrangeColour_3" class="dataList">
+                                                    <small>ผู้เขียน
+                                                                        <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label14_3">นายบารเมษฐ์  ดวงเพชร</span>
+                                                    </small>
+                                                    <small>&nbsp;วันที่ข่าว
+                                                                            <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label23_3">21/11/2561 0:00:00</span>
+                                                        &nbsp;แก้ไขล่าสุดเมื่อ
+                                                                            <span id="mainContentPlaceHolder_ddlDispalySameGroup_lbViewPerson_3" class="topic_l3">21/11/2561 11:17:51</span>
+                                                        &nbsp;
+                                                                    เปิดอ่าน
+                                                                    <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label10_3" style="color:Red;">159</span>
+                                                    </small>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </div>
+                            </td>
+	</tr><tr>
+		<td>
+                                <div class="form-group">
+                                    <table>
+                                        <tbody><tr>
+                                            <td rowspan="7" style="padding-right: 5px" valign="top">
+                                                 <img id="mainContentPlaceHolder_ddlDispalySameGroup_Image1_4" class="img-rounded" src="./informationDetail_files/171787b2cda243d88a3937cacacf331as.jpg" style="height:64px;width:95px;">
+                                            </td>
+                                            <td style="font-weight: bold" width="100%">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                               
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                            <a id="mainContentPlaceHolder_ddlDispalySameGroup_HyperLink5_4" href="http://erp.mju.ac.th/informationDetail.aspx?newsId=2719">ม.แม่โจ้ จัดปฐมนิเทศนักศึกษาใหม่ระดับบัณฑิตศึกษา ประจำภาคการศึกษาที่2</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="mainContentPlaceHolder_ddlDispalySameGroup_HyperLink_OrangeColour_4" class="dataList">
+                                                    <small>ผู้เขียน
+                                                                        <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label14_4">นายบารเมษฐ์  ดวงเพชร</span>
+                                                    </small>
+                                                    <small>&nbsp;วันที่ข่าว
+                                                                            <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label23_4">16/11/2561 0:00:00</span>
+                                                        &nbsp;แก้ไขล่าสุดเมื่อ
+                                                                            <span id="mainContentPlaceHolder_ddlDispalySameGroup_lbViewPerson_4" class="topic_l3">16/11/2561 9:18:06</span>
+                                                        &nbsp;
+                                                                    เปิดอ่าน
+                                                                    <span id="mainContentPlaceHolder_ddlDispalySameGroup_Label10_4" style="color:Red;">227</span>
+                                                    </small>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </div>
+                            </td>
+	</tr><tr>
+		<td>
+                                
+                            </td>
+	</tr>
+</tbody></table>
+                    &nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./informationDetail_files/logo_eManage.png" height="80">
+                </div>
+
+                <div class="col-sm-3">
+                    <span class="glyphicon glyphicon-home" style="float: left;"></span>
+                    <div style="margin: 0px 0px 30px 30px;">
+                        <strong>Address</strong><br>
+                        <small>มหาวิทยาลัยแม่โจ้
+                            63 หมู่ 4 ตำบลหนองหาร อำเภอสันทราย
+                            จังหวัดเชียงใหม่ 50290 </small>
+                    </div>
+                    <div style="clear: both;">
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <span class="glyphicon glyphicon-phone" style="float: left;"></span>
+                    <div style="margin: 0px 0px 30px 30px;">
+                        <strong>Phone :</strong><br>
+                        <small>(+66) 053 873285</small>
+                    </div>
+                    <div style="clear: both;">
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <span class="glyphicon glyphicon-envelope" style="float: left;"></span>
+                    <div style="margin: 0px 0px 30px 30px;">
+                        <strong>E-mail</strong><br>
+                        <small>maejo_university@mju.ac.th</small>
+                    </div>
+                    <div style="clear: both;">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center" style="border-top: 1px solid #CCC">
+                    <div>&nbsp;</div>
+                    <small class="text-light-gray">Copyright © 2014 Maejo university. All Rights Reserved.</small>
+                </div>
+            </div>
+        </div>
+        
+    </form>  
 
 
 </body></html>
